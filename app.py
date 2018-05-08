@@ -1,5 +1,6 @@
 """contains the main logic of the application"""
 # pylint: disable=E1101
+import os
 from datetime import datetime
 
 from flask import Flask, render_template, request, url_for, redirect
